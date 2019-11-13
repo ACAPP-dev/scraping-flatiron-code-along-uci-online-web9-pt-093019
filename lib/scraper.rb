@@ -25,4 +25,7 @@ class Scraper
     get_page.css
   end
 
+  def make_courses
+
+  end
 end
