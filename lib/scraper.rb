@@ -28,8 +28,6 @@ class Scraper
       course_instance.schedule = course.css(".date").text
       course_instance.description = course.css("p").text
     end
-
-
   end
 
   def make_courses
